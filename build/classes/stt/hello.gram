@@ -1,0 +1,38 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar for Hello World example
+ */
+
+grammar hello;
+
+
+//public <voices1> = (open) (fire) (fox);         //  English
+public <voices2> = (fire) (fox) (coo) (low);    //  Bengali
+
+//public <voices3> = (open) (terminal);           //  English
+public <voices4> = (terminal) (coo) (low);      //  Bengali
+
+//public <voices5> = (open) (g) (a) (deed);       //  English
+public <voices6> = (g) (a) (deed) (coo) (low);  //  Bengali
+
+//public <voices7> = (show) (the) (date);         //  English
+public <voices8> = (date) (the) (cow);          //  Bengali
+
+//public <voices9> = (show) (the) (file) (list);        //  English
+public <voices10> = (sob) (files) (the) (cow);        //  Bengali
+
+//public <voices11> = (shut) (down) (the) (system);           //  English
+public <voices12> = (system) (bond) (o) (coo) (row);        //  Bengali
+
+
+//public <voices13> = (who) (am) (i);
+//public <voices14> = (open) (wire) (shark);
+
+//public <voices15> = (open) (settings);                  //  English
+public <voices16> = (settings) (cow) (low);             //  Bengali
+
+//public <voices17> = (restart) (the) (system);           //  English
+//public <voices18> = (put) (no) (ray) (system) (start) (coo) (row);             //  Bengali
+
+

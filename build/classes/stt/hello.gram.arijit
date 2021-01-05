@@ -1,0 +1,31 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar for Hello World example
+ */
+
+grammar hello;
+
+public <greet> = (Good morning | Hello) ( Bhiksha | Evandro | Paul | Philip | Rita | Will );
+public <greet2> = (Good morning | Good Evening | Good Night | Hello);
+public <expression> = (I am) (happy|bored|cool|sad|fine|alright);
+public <expression2> = (You are) (good|bad|nice|cool|sad|fine|alright|happy|hot);
+public <expression3> = (We shall) (win|lose|overcome);
+public <expression4> = (How) (is) (he|she);
+public <expression5> = (How are) (they|you);
+public <expression6> = (How does) (he|she) (do);
+public <expression7> = (How do) (you|they) (do);
+public <expression8> = (Who are) (you|they);
+public <expression9> = (Who is) (he|she);
+public <expression10> = (He|She) (is) (happy|good|bad|nice|cool|hot|fine|alright);
+public <voices1> = (Open | Please open | genome) (Terminal);
+public <noun> = (fire) (fox);
+public <voices2> = (Terminal)(cow low);
+public <voices3> = (Terminal)(coo loon);
+public <voices3> = (do yeah) (coo ray) (Terminal) (coo loon) ;
+
+
+
+
+
+
